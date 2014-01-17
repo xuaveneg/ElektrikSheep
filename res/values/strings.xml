@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Strings -->
+    <string name="app_name">ElektrikSheep</string>
+    <!-- <string name="action_settings">Settings</string> -->
+    
+    <!-- Level & Activities Names -->
+    <string name="levelChoice">Choose your Level</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+    <string name="level5">Level 5</string>
+    <string name="level6">Level 6</string>
+    <string name="level7">Level 7</string>
+    <string name="level8">Level 8</string>
+    <string name="level9">Level 9</string>
+    <string name="level10">Level 10</string>
+   	
+    <!-- Hardcoded Messages -->
+    <string name="titleText">Welcome to the new nuclear-sheep-ed electric game</string>
+    
+    <string name="startButton">Start</string>
+    <string name="exitButton">Exit</string>
+
+</resources>

@@ -1,0 +1,135 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/left_margin"
+	            android:layout_marginRight="@dimen/right_margin"
+	            android:layout_marginTop="@dimen/top_margin"
+	            android:text="@string/levelChoice" />
+	        
+	        <Button
+				android:id="@+id/tutorialChoice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="0"
+				android:text="@string/tutorial" />
+		
+			<Button
+				android:id="@+id/level1Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="1"
+				android:text="@string/level1" />
+			
+			<Button
+				android:id="@+id/level2Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="2"
+				android:text="@string/level2" />
+			
+			<Button
+				android:id="@+id/level3Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="3"
+				android:text="@string/level3" />
+			
+			<Button
+				android:id="@+id/level4Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="4"
+				android:text="@string/level4" />
+			
+			<Button
+				android:id="@+id/level5Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="5"
+				android:text="@string/level5" />
+			
+			<Button
+				android:id="@+id/level6Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="6"
+				android:text="@string/level6" />
+			
+			<Button
+				android:id="@+id/level7Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="7"
+				android:text="@string/level7" />
+			
+			<Button
+				android:id="@+id/level8Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="8"
+				android:text="@string/level8" />
+			
+			<Button
+				android:id="@+id/level9Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="9"
+				android:text="@string/level9" />
+			
+			<Button
+				android:id="@+id/level10Choice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/bottom_margin"
+				android:layout_marginLeft="@dimen/left_margin"
+				android:layout_marginRight="@dimen/right_margin"
+				android:onClick="startLevel"
+				android:tag="10"
+				android:text="@string/level10" />
+	  
+	    </LinearLayout>
+	</ScrollView>
+</RelativeLayout>
